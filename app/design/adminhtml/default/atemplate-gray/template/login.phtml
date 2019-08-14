@@ -1,11 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html lang="en">
 <head>
-<?php 
-$settings = Mage::getModel('atemplate/atemplate')->load(2);
-$settings = unserialize($settings->getSettings());
-?>
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title><?php echo Mage::helper('adminhtml')->__('Log into Magento Admin Page') ?></title>
     <link type="text/css" rel="stylesheet" href="<?php echo $this->getSkinUrl('reset.css') ?>" media="all" />
@@ -32,7 +27,7 @@ $settings = unserialize($settings->getSettings());
     <div class="login-container">
 		<div class="login-logo">
 			<div class="login-logo-img">
-				<img src='<?php if (isset($settings['header-logo'])) { echo $this->getSkinUrl($settings['header-logo']); }else{ echo $this->getSkinUrl('images/logo.gif'); } ?>' />
+				<img src='<?php echo $this->getSkinUrl('images/logo.gif'); ?>' />
 			</div>
 		</div>
         <div class="login-box">
