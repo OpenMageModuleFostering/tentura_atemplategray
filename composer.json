@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Tentura_Atemplategray",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Free - Gray Magento Admin Template for your Magento shop",
+    "authors": [
+    {
+        "name": "Tentura Team",
+        "email": "info@tentura.eu"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
