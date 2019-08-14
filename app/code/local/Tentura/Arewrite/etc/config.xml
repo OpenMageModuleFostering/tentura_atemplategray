@@ -17,7 +17,7 @@
           <tentura_themeoverride_observer>
             <type>singleton</type>
             <!-- inchooadminthemecontroller/observer  -->
-            <class>Tentura_Atemplate_Controller_Observer</class>
+            <class>Tentura_Arewrite_Controller_Observer</class>
             <method>overrideTheme</method>
           </tentura_themeoverride_observer>
         </observers>
